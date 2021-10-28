@@ -16,5 +16,8 @@ namespace BDVentas.Data
         // De trabajador
         public DbSet<Trabajador> Trabajadores { get; set; }
 
+        // De venta
+        public DbSet<Venta> Ventas { get; set; }
+
     }
 }
