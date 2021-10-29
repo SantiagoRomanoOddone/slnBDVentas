@@ -18,6 +18,9 @@ namespace BDVentas.Data
 
         // De venta
         public DbSet<Venta> Ventas { get; set; }
+        
+         // De Detalle_ingreso
+        public DbSet<Detalle_ingreso> Detalle_ingresos { get; set; }
 
     }
 }
